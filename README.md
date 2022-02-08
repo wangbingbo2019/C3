@@ -17,6 +17,8 @@ Directory Example
 
 contains two input files:
 1. seeds_file.txt (list of disease genes) 
-2. network_file.txt (human interactome. note that gene IDs should be consistent in the two input files)
+
+2. network_file.txt (human interactome. note that gene IDs should be consistent in the two input files) This network is provided by 'Menche J, Sharma A, Kitsak M, et al. Disease networks. Uncovering disease-disease relationships through the incomplete interactome. Science 2015; 347.'
+
 The following command will generate the C3 genes and connected disease genes and save them in two files)
 ./C3.py network_file.txt seeds_file.txt
